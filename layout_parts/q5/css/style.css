@@ -1,5 +1,93 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.position_wrapper {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background-color: #ecf1f2;
+}
+
+.square {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.sq1 {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 10;
+}
+
+.sq8::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 0px;
+  right: 0px;
+  background-color: #ffefd3;
+}
+
+.sq2 {
+  background-color: #7084de;
+  top: 120px;
+  right: 120px;
+  z-index: 20;
+}
+
+.sq3 {
+  background-color: #d0ecea;
+  top: 200px;
+  right: 40px;
+  z-index: 30;
+}
+
+.sq4 {
+  background-color: #8b7a5e;
+  bottom: 120px;
+  right: 120px;
+  z-index: 40;
+}
+
+.sq5 {
+  background-color: #9fd6d2;
+  bottom: 40px;
+  left: 200px;
+  z-index: 50;
+}
+
+.sq6 {
+  background-color: #fffee4;
+  bottom: 120px;
+  left: 120px;
+  z-index: 60;
+}
+
+.sq7 {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 70;
+}
+
+.sq8 {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 80;
+}
+
+.sq9 {
+  position: fixed;
+  background-color: #2b69a3;
+  top: 10px;
+  left: 10px;
+}
 
 /* 回答はここに書いてね */

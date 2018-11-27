@@ -2,4 +2,35 @@
 
 /* 回答はここに書いてね */
 
+.fukidasi {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
+
+.fukidasi:after,.fukidasi:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  content: "";
+}
+
+.fukidasi:before {
+  bottom: -45px;
+  left: 30px;
+  border-top-color: #222;
+}
+
+.fukidasi:after {
+  bottom: -38px;
+  left: 30px;
+  border-top-color: #fff;
+}
+
 /* 回答はここに書いてね */

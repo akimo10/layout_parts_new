@@ -1,5 +1,88 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+/*Q7-1*/
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.box1 {
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.box1:first-child {
+  margin-left: 0px;
+}
+
+/*Q7-2*/
+.table-box {
+  display: table;
+}
+.cell-box {
+  width: 225px;
+  display: table-cell;
+  margin-left: 50px;
+  vertical-align: middle;
+  padding-left: 50px;
+}
+
+.cell-box:first-child {
+  padding-left: 0px;
+}
+
+/*Q7-3*/
+.block-box {
+  font-size: 0px;
+}
+.block-box-in-box {
+  display: inline-block;
+  width: 225px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.block-box-in-box:first-child {
+  margin-left: 0px;
+}
+
+/*Q7-4*/
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.flex-box-in-box {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+/*Q7-5*/
+.kotei-kahen-container {
+  font-size: 0px;
+}
+
+.kotei-kahen-box {
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: top;
+}
+.kotei-box {
+  width: 300px;
+}
+
+.kahen-box {
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
 
 /* 回答はここに書いてね */
