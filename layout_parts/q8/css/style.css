@@ -132,7 +132,7 @@
   appearance: none;
 }
 
-.input-init:focus {
+.form-input:focus {
   box-shadow: 0 0 7px #00BCD4;
 }
 
@@ -293,5 +293,8 @@
   box-sizing: border-box;
   resize: none;
 }
+
+.form-main-side-text:focus {
+  box-shadow: 0 0 7px #00BCD4;
 
 /* 回答はここに書いてね */
