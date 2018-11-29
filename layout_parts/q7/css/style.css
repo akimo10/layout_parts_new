@@ -8,14 +8,14 @@
   clear: both;
 }
 
-.box1 {
+.float-box {
   float: left;
   width: 225px;
   margin-left: 50px;
   box-sizing: border-box;
 }
 
-.box1:first-child {
+.float-box:first-child {
   margin-left: 0px;
 }
 

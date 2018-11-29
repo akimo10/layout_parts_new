@@ -1,36 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.table-graph {
   table-layout: fixed;
   width: 100%;
 }
 
-table th, table td {
+.table-graph th, .table-graph td {
   border: solid 1px #dedede;
   padding: 10px;
   text-align: center;
 }
 
-table th {
+.table-graph th {
   color: white;
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
 }
 
-table td {
+.table-graph td {
   font-size: 16px;
   line-height: 22px;
 }
 
-table tr:nth-child(2n+1) {
+.table-graph tr:nth-child(2n+1) {
   border: solid 1px #dedede;
   padding: 10px;
-  text-align: center;background-color: #ecf1f2;
+  text-align: center;
+  background-color: #ecf1f2;
 }
 
-table tr:last-child {
+.table-graph tr:last-child {
   border-top: dashed #000 2px;
 }
 

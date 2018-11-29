@@ -9,7 +9,7 @@
   background-color: #eff3f4;
 }
 
-.img_box1 {
+.left-top_img {
   float:left;
   margin: 0px 20px 10px 0px;
 }
@@ -20,7 +20,7 @@
   word-break: break-all;
 }
 
-.img_box2 {
+.right-bottom_img {
   float:right;
   margin: 0px 0px 10px 20px;
 

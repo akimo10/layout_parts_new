@@ -11,21 +11,26 @@
   margin: 0 auto;
   width: 940px;
   background-color: #eff3f4;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .boxmodel {
   float: left;
   background-color: #3274ae;
-  margin: 20px 0px 20px 20px;
+  width: 230px;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.boxmodel:first-child {
+  margin-left: 0;
 }
 
 .textbox {
-  width: 230px;
   background-color: #eaf3f4;
-  margin: 20px;
   padding: 20px;
   border: solid 10px #022336;
-  box-sizing: border-box;
   font-size: 16px;
   line-height: 16px;
 }

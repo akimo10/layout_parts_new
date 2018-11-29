@@ -16,7 +16,7 @@
 .margin-box {
   width: 90px;
   padding: 10px 0px;
-  margin: auto;
+  margin: 0 auto;
   background-color: #e6f2ff;
   text-align: center;
 }
@@ -24,17 +24,17 @@
 
 
 /*Q6-2*/
-.box1 {
+.around-box {
   display: table;
 }
 
-.box2 {
+.around-box-in-box {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.box3 {
+.around-box-in-box-text {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
